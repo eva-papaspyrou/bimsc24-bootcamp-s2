@@ -28,7 +28,7 @@ html {
 }
 
 body {
-    background-image: url('https://i.pinimg.com/564x/b1/e0/81/b1e081cc867950ce53f5f3f8ed7cdda1.jpg');
+    background-image: url('https://raw.githubusercontent.com/jose-villegas/HeightmapGenerator/master/HeightmapGenerator/Resources/perlin_1.BMP');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
