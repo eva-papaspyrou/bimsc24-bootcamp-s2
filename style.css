@@ -13,6 +13,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    opacity: 0.6;
 }
 /* Disable native controls in WebKit browsers */
 #video-container video::-webkit-media-controls {
@@ -21,10 +22,10 @@
 
 html {
     background-color: rgb(241, 241, 241);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 27px;
 }
 
 body {
