@@ -1,3 +1,24 @@
+/* VIDEO */
+/* size */
+#video-container {
+    position: fixed; /* Use fixed positioning to cover the entire viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Set a negative z-index to place it behind other elements */
+}
+
+#video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Disable native controls in WebKit browsers */
+#video-container video::-webkit-media-controls {
+    display: none !important; 
+}
+
 html {
     background-color: rgb(241, 241, 241);
     color: rgb(0, 0, 0);
@@ -31,14 +52,18 @@ div {
 }
 #main {
     width: 80%;
+    position: relative;
+    z-index: 1; /* Set a higher z-index to place it in front of the video */
 }
-
+/* VIDEO */
+/* size */
 #sidebar {
     width: 5%;
     display: flex;
     flex-direction: column;
-    justify-content:left;
+    justify-content: left;
     align-items: center;
+    z-index: 1; /* Set a higher z-index to place it in front of the video */
 }
 
 .sidebar-item {
